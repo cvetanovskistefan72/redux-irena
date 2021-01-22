@@ -2,6 +2,7 @@ import './App.css';
 import { BooksList } from './components/BooksList';
 import { Filters } from './components/Filters';
 import { Header } from './components/Header';
+import TestComponent from './components/TestComponent';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
        <Header/>  
       <Filters/>
       <BooksList/>
+      <TestComponent/>
     </div>
   );
 }
